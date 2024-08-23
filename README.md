@@ -5,7 +5,7 @@ This project analyzes Walmart sales data from the Kaggle Sales Forecasting Compe
 <br />
 <br />
 
-In my Walmart Sales Data Analysis project, I created a detailed sales table and enhanced the dataset by incorporating new features such as time_of_day, day_name, and month_name using SQL functions and CASE statements. This allowed for a more granular analysis of sales patterns. I identified key trends, including the most common payment methods, top-selling product lines, and monthly revenue trends. Additionally, I analyzed branch and city performance by calculating total revenue and identifying high-performing branches. By assessing customer feedback and average ratings across different times and locations, I provided insights that can help optimize marketing strategies and improve customer experience, showcasing my strong skills in data analysis and SQL.
+In my Walmart Sales Data Analysis project, I created a detailed sales table and enhanced the dataset by incorporating new features such as "time_of_day", "day_name", and "month_name" using SQL functions and CASE statements. This allowed for a more granular analysis of sales patterns. I identified key trends, including the most common payment methods, top-selling product lines, and monthly revenue trends. Additionally, I analyzed branch and city performance by calculating total revenue and identifying high-performing branches. By assessing customer feedback and average ratings across different times and locations, I provided insights that can help optimize marketing strategies and improve customer experience, showcasing my strong skills in data analysis and SQL.
 <br />
 
 
@@ -17,17 +17,17 @@ I implemented various data replacement methods to ensure that all gaps in the da
   - Tasks Completed:
     - Build a database
     - Create table and insert the data.
-    - Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
+    - Select columns with null values in them. There are no null values in our database as when creating the tables, we set NOT NULL for each field, hence, null values are filtered out.
 - <b>Feature Engineering:</b>
 In this phase of the project, I generated new columns from the existing data to enhance my analysis. 
   - Tasks Completed:
-    - Add a column named time_of_day to categorize sales into Morning, Afternoon, and Evening, which provided insights into when most sales occur throughout the day.
+    - Add a column named time_of_day to categorize sales into Morning, Afternoon, and Evening, which provides insights into when most sales occur throughout the day.
     - Create a day_name column to extract the day of the week for each transaction, allowing me to identify which days are the busiest for each branch.
     - Introduce a month_name column to extract the months from the transaction dates, helping me determine which months yield the highest sales and profits.
 - <b>Exploratory Data Analysis (EDA):</b>
-During the exploratory data analysis phase, I focused on answering the key questions and objectives outlined for the project.  I analyzed various metrics, such as sales performance across different branches, product categories, and time frames. By visualizing the data through charts and graphs, I gained valuable insights that guided my understanding of customer behavior and sales trends, ultimately informing strategies for optimizing sales performance.
+During the exploratory data analysis phase, I focused on answering the key questions and objectives outlined for the project.  I analyzed various metrics, such as sales performance across different branches, product categories, and time frames.
   - Tasks Completed:
-    - Examinine the dataset to uncover patterns, trends, and relationships within the data.
+    - Examine the dataset to uncover patterns, trends, and relationships within the data.
     - Analyze various metrics, such as sales performance across different branches, product categories, and time frames.
     - Gain valuable insights that guided my understanding of customer behavior and sales trends, ultimately providing opportunities to develop strategies for optimizing sales performance.
 
@@ -46,7 +46,7 @@ During the exploratory data analysis phase, I focused on answering the key quest
     - 6
   - What is the most common payment method?
     - Cash, with 344 transactions
-  - What is the most selling product line?
+  - What is the best-selling product line?
     - Fashion Accessories, with 178 products sold.
   - What is the total revenue by month?
     - January = $116,292
@@ -95,12 +95,12 @@ During the exploratory data analysis phase, I focused on answering the key quest
       -   Morning: 29
       -   Afternoon: 58
       -   Evening: 51
-  - Which of the customer types brings the most revenue?
+  - Which of the customer types generates the most revenue?
     - Member = $163,625
   - Which city has the largest tax percent/ VAT (Value Added Tax)?
     - Naypyitaw = Average VAT of 16.09
   - Which customer type pays the most in VAT?
-    - Member = Average VAT 15.61
+    - Member = Average VAT of 15.61
   
 - <b>Customer Questions</b>
   - How many unique customer types does the data have?
@@ -125,9 +125,9 @@ During the exploratory data analysis phase, I focused on answering the key quest
     - Afternoon, giving an average rating of 7.02
   - Which time of the day do customers give most ratings per branch?
     - Evening, with an average rating of 7.10
-  - Which day of the week has the best average ratings?
+  - Which day of the week has the highest average ratings?
     - Monday with an average rating of 7.13
-  - Which day of the week has the best average ratings per branch?
+  - Which day of the week has the highest average ratings per branch?
     - Saturday with an average rating per branch of 7.23
   
 </p>
